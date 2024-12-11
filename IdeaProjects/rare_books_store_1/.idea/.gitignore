@@ -1,0 +1,27 @@
+# Если сборка уходит в CI/CD конвейер, то мы отправляем исходники на репо и соответственно не исключаем файлы сборки.
+.idea/
+*.iml
+*.iws
+workspace.xml
+tasks.xml
+modules.xml
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Logs
+logs/
+*.log
+
+# Eclipse (если проект импортируется в Eclipse)
+.project
+.classpath
+
+# Test results (если они не нужны в репозитории)
+test-results/
